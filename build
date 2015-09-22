@@ -1,0 +1,6 @@
+#!/bin/sh
+avr-gcc -std=c99 -Wall -c -g -O3 -mmcu=atmega328p -DF_CPU=8000000UL -DI2C_ADDR=0x28 avr-io.c
+avr-gcc -g -mmcu=atmega328p -o avr-io.elf avr-io.o
+avr-objcopy -j .text -j .data -O ihex avr-io.elf avr-io.hex
+avr-objdump -h -S avr-io.elf > avr-io.lst
+
