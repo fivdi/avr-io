@@ -23,19 +23,19 @@
 #define I2C_ADDR 0x28
 #endif
 
-#define INPUT        0
-#define OUTPUT       1
-#define ANALOG       2
-#define PWM          3
-#define SERVO        4
+#define INPUT 0
+#define OUTPUT 1
+#define ANALOG 2
+#define PWM 3
+#define SERVO 4
 #define INPUT_PULLUP 5
-#define MAX_MODE     INPUT_PULLUP
+#define MAX_MODE INPUT_PULLUP
 
-#define BINPUT        (1 << INPUT)
-#define BOUTPUT       (1 << OUTPUT)
-#define BANALOG       (1 << ANALOG)
-#define BPWM          (1 << PWM)
-#define BSERVO        (1 << SERVO)
+#define BINPUT (1 << INPUT)
+#define BOUTPUT (1 << OUTPUT)
+#define BANALOG (1 << ANALOG)
+#define BPWM (1 << PWM)
+#define BSERVO (1 << SERVO)
 #define BINPUT_PULLUP (1 << INPUT_PULLUP)
 
 #define PIN_COUNT 18
@@ -43,8 +43,8 @@
 #define ANALOG_PIN_OFFSET 14
 #define REG_COUNT (PIN_COUNT * 4)
 
-#define REG_ADDR_RECEIVED   1
-#define REG_VAL_RECEIVED    2
+#define REG_ADDR_RECEIVED 1
+#define REG_VAL_RECEIVED 2
 #define REG_VAL_TRANSMITTED 3
 
 volatile uint8_t reg_addr;
