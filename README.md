@@ -1,8 +1,11 @@
 ## avr-io
 
-Firmware for the ATmega328P which enables pins to be controlled via I2C. When
-running the firmware, the ATmega can be accessed at it's default address of
-0x28 on an I2C-bus.
+Firmware for the ATmega328P which allows it to function as an I2C device and
+have it's pins controlled via I2C. When running the firmware, the ATmega can
+be accessed at it's default address of 0x28 on an I2C-bus.
+
+When the ATmega328P is clocked at 8MHz, the firmware will function on an
+I2C-bus running at speeds of up to 100KHz without stretching the I2C clock.
 
 ### Usage
 
