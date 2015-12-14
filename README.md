@@ -62,8 +62,8 @@ Address | Name | Reset Value | Arduino Pin | ATmega328P Pin | Description
 0x2d | P11_VALUE | 0 or 1 | 11 | 17 | Value pin 11
 0x30 | P12_MODE | INPUT | 12 | 18 | Mode pin 12
 0x31 | P12_VALUE | 0 or 1 | 12 | 18 | Value pin 12
-0x34 | P13_MODE | INPUT | 13 | 17 | Mode pin 13
-0x35 | P13_VALUE | 0 or 1 | 13 | 17 | Value pin 13
+0x34 | P13_MODE | INPUT | 13 | 19 | Mode pin 13
+0x35 | P13_VALUE | 0 or 1 | 13 | 19 | Value pin 13
 0x38 | P14_MODE | INPUT | A0 | 23 | Mode pin A0
 0x39 | P14_VALUE (LSB) | 0 or 1 | A0 | 23 | Value pin A0 (LSB)
 0x3a | P14_VALUE (MSB) | 0 | A0 | 23 | Value pin A0 (MSB)
